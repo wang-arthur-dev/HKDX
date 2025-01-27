@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 import java.time.Duration;
 
-public class SeleniumTest {
+public class ResponsiveReading {
     public static void main(String[] args) {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
 
