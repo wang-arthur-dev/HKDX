@@ -1,7 +1,3 @@
-package org.example;
-
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -15,15 +11,3 @@ public class Main {
             String choice = scanner.nextLine();
 
             switch (choice) {
-                case "1":
-                    BibleSearch.main(args);
-                    return; // 실행 후 프로그램 종료
-                case "2":
-                    ResponsiveReading.main(args);
-                    return; // 실행 후 프로그램 종료
-                default:
-                    System.out.println("잘못된 입력입니다. 다시 입력하세요.");
-            }
-        }
-    }
-}
